@@ -1,0 +1,40 @@
+/* Estilos para modificar admin */
+.change-list {
+  overflow-y: hidden;
+}
+
+#header {
+    background: #2a6478;
+    color: #e4e4e4;
+}
+  
+#branding h1 {
+  color: #e4e4e4;
+}
+
+div.breadcrumbs {
+  background: #204d5e;
+  color: #e4e4e4;
+}
+
+input[type="submit"],
+input[type="button"],
+.submit-row input {
+  background: #2a6478;
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+  background: #2a6478;
+}
+
+#result_list {
+    display: block;
+    position: relative;
+}
+
+#result_list > thead > tr > th {
+    position: sticky;
+    top: 0;
+}
